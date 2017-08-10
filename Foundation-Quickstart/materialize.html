@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+<!--Foundation 
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Readventure</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css"> -->
+<!--Materilize-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Bowlby+One+SC|Fredoka+One|Prata|Short+Stack" rel="stylesheet">
+<style>
+h1 {
+    font-family: 'Amatic SC';
+    font-size: 66px;
+}
+
+body {
+    font-family: 'Fredoka One';
+    font-size: 22px;
+}
+
+h3 {
+    font-family: 'Architects Daughter';
+    font-size: 40px;
+}
+
+h4 {
+    font-family: 'Fredoka One';
+    font-size: 40px;
+}
+
+h5 {
+    font-family: 'Amatic';
+}
+</style>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
+
+<link rel="stylesheet" href="css/materialize.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/js/materialize.min.js"></script>
+
+
+
+<body>
+    <!--<nav>
+        <div class="#006064 cyan darken-4 nav-wrapper">
+            <a href="#" class="brand-logo"></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Login</a></li>
+                <li><a href="badges.html">Register</a></li>
+                <li><a href="collapsible.html">FAQ's</a></li>
+            </ul>
+        </div>
+    </nav>-->
+<nav>
+   <div class="#006064 cyan darken-4 nav-wrapper">
+     <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+     <ul class="right hide-on-med-and-down">
+       <li><a href="sass.html">Login</a></li>
+       <li><a href="badges.html">Register</a></li>
+       <li><a href="collapsible.html"></a></li>
+       <li><a href="mobile.html">FAQ's</a></li>
+     </ul>
+     <ul class="side-nav" id="mobile-demo">
+       <li><a href="sass.html">Sass</a></li>
+       <li><a href="badges.html">Components</a></li>
+       <li><a href="collapsible.html">FAQ's</a></li>
+     </ul>
+   </div>
+ </nav>
+    <br>
+    <div class="container">
+        <div class="row">
+            <!-- Page Content goes here -->
+            <!-- <div class="col s6">
+                <img style="width: 100%" src="images/READVENTURE_logo.png">
+            </div>-->
+            <div class="col s6 card" id="mainavatar" >
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator responsive-img" src="images/av5.png" style="/* height: 100%; */max-height: 500px; width: auto;">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Readventurers<i class="material-icons right">keyboard_arrow_up</i></span>
+                    <p><a href="#">Get Started</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Original Readventure Avatars<i class="material-icons right">keyboard_arrow_down</i></span>
+                    <p><img class="activator" src="images/av2.png">
+                        <br>
+                        <img class="activator" src="images/av3.png">
+                        <br>
+                        <img class="activator" src="images/av4.png">
+                        <br>
+                        <img class="activator" src="images/av1.png">
+                        <br>
+                    </p>
+                </div>
+            </div>
+            <div class="col s6">
+                <h4>Readventure</h4>
+                <div class="row">
+                    <div class="col s5.7">
+                        <div class="card-panel teal">
+                            <span class="white-text">I am a very simple card. I am good at containing small bits of information.
+          I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+          </span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="collapsible" data-collapsible="expandable">
+                    <li>
+                        <div class="collapsible-header #ab47bc purple lighten-1"><i class="material-icons">book</i>Readventure Search</div>
+                        <div class="#fff8e1 amber lighten-5 collapsible-body">
+                            <p>Readventure gives readers a treasure trove of book searches.</p>
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="placeholder" type="placeholder" class="validate">
+                                            <label for="placeholder"></label>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header #ab47bc purple lighten-1"><i class="material-icons">bookmark</i>Word Readventure</div>
+                        <div class="#fff8e1 amber lighten-5 collapsible-body">
+                            <p>Enjoy word searches too!</p>
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s12">
+                                            <input id="placeholder" type="placeholder" class="validate">
+                                            <label for="placeholder"></label>
+                                        </div>
+                                    </div>
+                            </div>
+                    </li>
+                    <li>
+                        <div class="collapsible-header #ab47bc purple lighten-1"><i class="material-icons">chrome_reader_mode</i>Readventure Treasures</div>
+                        <div class="#fff8e1 amber lighten-5 collapsible-body">
+                            <p>Collect all Readventure's sparkling treasure trove of prizes.</p>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+                <br>
+                <div class="container">
+                    <div class="row">
+                        <div class="fixed-action-btn horizontal">
+                            <a class="btn-floating btn-large red">
+      <i class="large material-icons">local_library</i>
+                    </a>
+                            <ul>
+                                <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+                                <li><a class="btn-floating indigo darken-4"><i class="material-icons">person</i></a></li>
+                                <li><a class="btn-floating  light-green darken-4"><i class="material-icons">school</i></a></li>
+                                <li><a class="btn-floating yellow darken-4"><i class="material-icons">queue</i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
